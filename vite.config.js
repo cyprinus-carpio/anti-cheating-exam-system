@@ -9,6 +9,7 @@ export default defineConfig({
     global: 'globalThis',
   },
   build: {
-    target: 'es2020'
+    outDir: 'build', 
+    target: 'es2020'，
   }
 })
