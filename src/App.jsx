@@ -15,23 +15,29 @@ export function App() {
             <Title1
                 align="center"
                 className="title">Anti-cheating Exam System</Title1>
-            <Text>A lightweight answering system that effectively prevents cheating on exams</Text>
+            <Text align="center">A lightweight answering system that effectively prevents cheating on exams.</Text>
             <div className="buttonGroup">
                 <CompoundButton
+                    as="a"
+                    href="https://github.com/cyprinus-carpio/anti-cheating-exam-system/releases/download/Releases/Auto_Installer.zip"
+                    target="_blank"
                     secondaryContent="Latest release version"
                     appearance="primary"
                     icon={<ArrowDownloadRegular />}
                 >
-                    Download
+                    Download Auto Installer
                 </CompoundButton>
                 <CompoundButton
-                    secondaryContent="All versions"
+                    as="a"
+                    href="https://github.com/cyprinus-carpio/anti-cheating-exam-system/releases"
+                    target="_blank"
+                    secondaryContent="All released versions"
                     icon={<ArchiveMultipleRegular />}
                 >
-                    View more
+                    View more versions
                 </CompoundButton>
             </div>
-            <Text>&copy; 2025 Cyprinus-carpio. All rights reserved.</Text>
+            <Text align="center">&copy; 2025 Cyprinus-carpio. All rights reserved.</Text>
         </div>
     );
 }
